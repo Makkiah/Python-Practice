@@ -1,0 +1,13 @@
+#Created a simple For loop that shows the occupants of a 3-bdrm house
+
+house = []
+
+for i in range(3):
+  pers = 0 
+  if pers < 3:
+    person = raw_input("Who has a room in your house?(3 bedrooms)")
+    house.append(person)
+    pers += 1
+    print house, " has a room."
+  else:
+    print house, " has rooms."
